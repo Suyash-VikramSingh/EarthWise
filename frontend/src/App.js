@@ -12,8 +12,10 @@ function App() {
   }, []);
 
   return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold text-blue-600">Frontend Connected!</h1>
+    <div className="p-6 bg-green-100 w-full h-screen flex flex-col items-center justify-center">
+      <h1 className="text-3xl font-bold text-green-600">Hello, Team!!</h1>
+      <h1 className="text-3xl font-bold text-green-600">This is EarthWise.</h1>
+      <h1 className="mt-4 text-lg">Frontend Connected!</h1>
       <p className="mt-4 text-lg">Message from backend: {message}</p>
     </div>
   );
